@@ -9,7 +9,7 @@
 <body>
     <!-- Timer visualisation -->
     <div class="timer-container" id="timerContainer">
-        <canvas id="timerCanvas" width="400" height="400"></canvas>
+        <canvas id="timerCanvas"></canvas>
         <div class="time-bg"></div>
         <div class="time-display" id="timeDisplay">00:00</div>
         <div class="status-indicator" id="statusIndicator">PAUSED</div>
@@ -46,9 +46,7 @@
     </div>
 
     <!-- Socket.IO client -->
-    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"
-            integrity="sha384-Gn5Ey9uZGpkMi2svMBuLvRAdXuCQLKBNUlNSCGz7hX5LSt4+YOT14aNpA8Lx/MG"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
     <!-- Timer client logic -->
     <script src="/static/timer.js"></script>
 </body>

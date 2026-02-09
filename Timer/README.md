@@ -25,7 +25,7 @@ progress ring, real-time WebSocket sync, and a full HTTP REST API designed for
 | ⌨ Keyboard Shortcuts | Space (start/stop), R (reset), ↑↓ (±10 s) |
 | 🕐 Time Presets | 1, 2, 5, 10, 15 minute quick-set buttons |
 | 🔄 Auto-Reconnect | WebSocket reconnects automatically on disconnect |
-| 📐 Responsive | Works at 400×400 and 800×200 (lower-third) |
+| 📐 Responsive | Fully responsive design — works at any size from mobile to 4K |
 
 ---
 
@@ -60,8 +60,8 @@ The server starts on **http://localhost:5000**.
 | Setting | Value |
 |---------|-------|
 | **URL** | `http://localhost:5000/?transparent=true` |
-| **Width** | `400` |
-| **Height** | `400` |
+| **Width** | Any (e.g., `400`, `800`, `1920`) |
+| **Height** | Any (e.g., `400`, `200`, `1080`) |
 | **Custom CSS** | *(leave empty)* |
 
 3. ✅ Check **"Shutdown source when not visible"**
@@ -69,11 +69,9 @@ The server starts on **http://localhost:5000**.
 
 > The `?transparent=true` parameter hides controls and makes the background
 > transparent so only the timer ring + digits are visible.
-
-### Wide / Lower-Third Layout
-
-For a horizontal bar layout, set the browser source to **800 × 200** — the CSS
-will adapt automatically.
+> 
+> **The timer automatically scales to fit any browser source size** — from small
+> corner overlays to full-screen displays.
 
 ---
 
